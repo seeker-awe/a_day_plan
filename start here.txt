@@ -1,0 +1,6 @@
+2021-07-25
+- practice JS and DOM
+- description: activity planner
+	- catagories for actvites (eat, play, other)
+	- each catagory will present a preset list of related items
+	- at the end, a sentence will be created that combines the selections

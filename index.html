@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Rakkas&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/styles.css">
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <title>Enjoy !</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-warning">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#meetup">meetup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#chat">chat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#breyani-road">breyani road</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#breyani">breyani</a>
+          </li>
+        </ul>
+    </div>
+    <a class="navbar-brand " href="#"> ر حلة</a>
+  </nav>
+<div class="main-frame">
+  <!-- logo -->
+  <div class="logo-section">
+  </div>
+
+
+    <div class="main-frame">
+      <!-- title -->
+      <div class="section">
+        <div class="title-accent"></div>
+        <h2 class="title">Ready to have a fantastic day ?</h2>
+        <h2 class="title">let us help</h2>
+      </div>
+
+      <!-- form -->
+      <div class="section">
+        <div class="section-selection">
+          <h4>food</h4>
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <select class="selections" name="selection-food">
+              </select>
+            </div>
+            <div class="col-lg-1 col-md-2">
+              <h5>or</h5>
+            </div>
+            <div class="col-lg-8 cl-md-5">
+              <input id ="input-food" class="selections-input" type="text" name="input-food" placeholder="enter your choice" value="" >
+            </div>
+          </div>
+        </div>
+
+        <div class="section-selection">
+          <h4>fun</h4>
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <select class="selections" name="selection-fun">
+              </select>
+            </div>
+            <div class="col-lg-1 col-md-2">
+              <h5>or</h5>
+            </div>
+            <div class="col-lg-8 cl-md-5">
+              <input id ="input-fun" class="selections-input" type="text" name="input-fun" placeholder="enter your choice" value="" >
+            </div>
+          </div>
+        </div>
+
+        <div class="section-selection">
+          <h4>snack</h4>
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <select class="selections" name="selection-snack">
+              </select>
+            </div>
+            <div class="col-lg-1 col-md-2">
+              <h5>or</h5>
+            </div>
+            <div class="col-lg-8 cl-md-5">
+              <input id ="input-snack" class="selections-input" type="text" name="input-snack" placeholder="enter your choice" value="" >
+            </div>
+          </div>
+        </div>
+
+        <div class="section-selection">
+          <h4>tv</h4>
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <select class="selections" name="selection-tv">
+              </select>
+            </div>
+            <div class="col-lg-1 col-md-2">
+              <h5>or</h5>
+            </div>
+            <div class="col-lg-8 cl-md-5">
+              <input id ="input-tv" class="selections-input" type="text" name="input-tv" placeholder="enter your choice" value="" >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- outline -->
+      <div class="section">
+        <p id="outline"></p>
+        <div class="center-text">
+          <button class="btn btn-info" type="button" name="button" onclick="makePlan();">make plan</button>
+          <button class="btn btn-outline-info" type="button" name="button">cool, send it!</button>
+          <button class="btn btn-outline-danger" type="button" name="button">nah</button>
+        </div>
+      </div>
+
+      <!-- verdict -->
+
+    </div>
+  <script src="public/script.js" type="text/javascript"></script>
+  </body>
+</html>

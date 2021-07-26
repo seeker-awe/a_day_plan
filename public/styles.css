@@ -1,0 +1,64 @@
+* {
+  font-family: verdana;
+  color: #4B4B4B;
+}
+body {
+  background-color: #F1F1F1
+}
+.navbar-brand{
+  font-family: 'Rakkas', cursive;
+  font-size: 1.5rem;
+}
+option {
+  background-color: #FFD500;
+}
+
+.btn {
+  border-radius: 0;
+}
+.main-frame {
+  margin: 0 10%;
+}
+.title-accent {
+  position: absolute;
+  top: -45%;
+  left: 15%;
+  background-color: #0093A4;
+  height: 200px;
+  width:130px;
+  transform: skew(-15deg)
+}
+.title {
+  position: relative;
+  left: 20%;
+  font-style: italic;
+}
+.section {
+  position: relative;
+  margin: 30% 0;
+}
+.section-selection {
+  margin: 10% 5% ;
+}
+.selections {
+  border: 0;
+  padding:0.3rem;
+  background-color: #FFD500;
+  display: block;
+  width: 100%;
+}
+.section-verdict {
+  text-align: center;
+}
+.selections-input {
+  width: 100%;
+  background-color: inherit;
+  border: 2px solid #FFD500;
+}
+.center-text {
+  text-align: center;
+}
+
+#outline {
+  margin-bottom : 15%;
+}
