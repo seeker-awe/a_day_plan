@@ -5,14 +5,15 @@
 body {
   background-color: #F1F1F1
 }
-.navbar-brand{
-  font-family: 'Rakkas', cursive;
-  font-size: 1.5rem;
-}
+
 option {
   background-color: #FFD500;
 }
 
+.navbar-brand{
+  font-family: 'Rakkas', cursive;
+  font-size: 1.5rem;
+}
 .btn {
   border-radius: 0;
 }
@@ -61,4 +62,10 @@ option {
 
 #outline {
   margin-bottom : 15%;
+}
+
+@media (max-width: 800px) {
+  .main-frame {
+    margin: 0 3%;
+  }
 }
